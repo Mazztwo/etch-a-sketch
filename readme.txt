@@ -1,0 +1,1 @@
+An etch-a-sketch based on The Odin Project curriculum. Project found here: http://www.theodinproject.com/courses/web-development-101/lessons/javascript-and-jquery
