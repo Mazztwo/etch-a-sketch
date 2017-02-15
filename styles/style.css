@@ -14,14 +14,24 @@
 #canvas
 {
 
-	background-color: green;
+	border: 1px solid black;
+	margin: auto;
 	height: 500px;
 	width: 500px;
-	margin: auto;
 
 }
 
+#grid
+{
+	border-collapse: collapse;
+}
+
+
 .gridPixel
 {
-	border: 1px black;
+	height: 125px;
+	width: 125px;
+	margin: 0;
+	padding: 0;
+	border: .5px solid black;
 }
