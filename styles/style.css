@@ -1,0 +1,27 @@
+#title
+{
+	text-align: center;
+}
+
+#controls
+{
+	background-color: red;
+	height: 50px;
+	width: 500px;
+	margin: auto;
+}
+
+#canvas
+{
+
+	background-color: green;
+	height: 500px;
+	width: 500px;
+	margin: auto;
+
+}
+
+.gridPixel
+{
+	border: 1px black;
+}
