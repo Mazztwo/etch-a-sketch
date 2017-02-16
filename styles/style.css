@@ -14,7 +14,6 @@
 #canvas
 {
 
-	border: 1px solid black;
 	margin: auto;
 	height: 500px;
 	width: 500px;
@@ -34,4 +33,14 @@
 	margin: 0;
 	padding: 0;
 	border: .5px solid black;
+}
+
+td:hover
+{
+	background-color: black;
+}
+
+.visited
+{
+	background-color: black;
 }
