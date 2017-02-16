@@ -11,6 +11,24 @@
 	margin: auto;
 }
 
+#clearButton
+{
+	height: 20px;
+	width: 35px;
+	background-color: gray;
+	float: left;	
+	border: 1px black solid;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+#clearButton:hover
+{
+	background-color: #2F4F4F;
+}
+
 #canvas
 {
 
@@ -44,3 +62,8 @@ td:hover
 {
 	background-color: black;
 }
+
+
+
+
+

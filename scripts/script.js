@@ -21,5 +21,9 @@ $(document).ready(function()
 
 	});
 	
+	$("#clearButton").click(function()
+	{
+		$(".gridPixel").removeClass("visited");
+	});
 
 });
