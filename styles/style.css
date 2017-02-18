@@ -1,6 +1,9 @@
+
+
 #title
 {
 	text-align: center;
+	font-family: Verdana;
 }
 
 #controls
@@ -71,21 +74,17 @@
 {
 	border-collapse: collapse;
 	border: 10px solid #CC0000;
+	height: 500px;
+	width: 500px
 }
 
 
 .gridPixel
 {
-	height: 125px;
 	width: 125px;
 	margin: 0;
 	padding: 0;
 	border: .5px solid black;
-}
-
-td:hover
-{
-	background-color: black;
 }
 
 .visited
