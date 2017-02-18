@@ -15,20 +15,23 @@ $(document).ready(function()
 	}
 
 	
-	$("td.gridPixel").mouseenter(function()
+	$(".gridPixel").mouseenter(function()
 	{
 		$(this).addClass("visited");
 
 	});
 	
+
 	$("#clearButton").click(function()
 	{
 		$(".gridPixel").removeClass("visited");
 	});
 
+
 	$("#changePixelButton").click(function()
 	{
 		gridSize = prompt("Please enter a grid size X (Resulting grid will be X by X.", "grid size");
+		
 		$("tr").remove();
 		var newWidth = 500/gridSize;
 		$(".gridPixel").width(newWidth);
@@ -46,13 +49,6 @@ $(document).ready(function()
 	});
 
 });
-
-$("td.gridPixel").mouseenter(function()
-	{
-		$(this).addClass("visited");
-
-	});
-
 
 
 
